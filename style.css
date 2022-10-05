@@ -1,0 +1,102 @@
+html{
+    min-height: 100%;
+    background: rgb(2,0,36);
+background: linear-gradient (180deg, #297786 0%,
+#021E43 100%);
+font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+    
+}
+.person-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.person-container strong{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.simbolo-container{
+    font-size: 60px;
+}
+
+/** purpose */
+.purpose{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: aliceblue;
+    padding: 30px;
+    border-top-left-radius: 50px;
+
+    
+    -webkit-box-shadow: 0px 3px 9px -1px rgba(0,0,0,0.32);
+-moz-box-shadow: 0px 3px 9px -1px rgba(0,0,0,0.32);
+box-shadow: 0px 3px 9px -1px rgba(0,0,0,0.32);
+}
+
+/* foto do propósito */
+
+.purpose_photo{
+    display: flex;
+    justify-content: center;
+
+}
+.purpose img{
+    border-radius: 100px;
+    
+    width: 170px;
+     
+}
+
+/* descrição do propósito */
+
+.purpose h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    color: #0b68e2;
+}
+.purpose p{
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+.purpose strong{
+    font-weight:700;
+    
+}
+
+.metas{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.metas h1{
+    color: white;
+    font-size: 25px;
+    
+}
+.metas ul{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.metas li{
+    margin-top: 5px;
+
+}
+footer{
+    text-align: center;
+    margin-top: 120px;
+    color: white;
+}
+
+
